@@ -1,4 +1,4 @@
-public class slot 
+public class machine 
 {
 	private boolean skittles, starburst, sourpatch;
 	private boolean hershey, crunch, kitkat; 
@@ -32,7 +32,7 @@ public class slot
 	{
 		return this.star;
 	}
-	public void sethershey();
+	public void sethershey()
 	{
 		this.hershey = true;
 	}
